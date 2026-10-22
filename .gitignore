@@ -11,3 +11,36 @@ venv/
 
 # Editor settings
 .vscode/
+
+# DataGuard AI v0.1 additions
+# Generated reports and package build output
+/artifacts/
+/build/
+/dist/
+*.egg-info/
+.eggs/
+
+# Additional Python and tool caches
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Additional virtual environments
+env/
+ENV/
+.venv*/
+
+# Local secrets; a sanitized template may be committed
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
